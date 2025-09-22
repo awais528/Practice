@@ -7,8 +7,7 @@ if st.checkbox('Show/Hide'):
     st.text('Checked....')
 else:
     st.warning('you are slow')
-img = Image.open('REPORT 1.png')
-st.image(img, width=500)
+
 if st.button('Log in'):
     st.success('Logged in')
 else:
